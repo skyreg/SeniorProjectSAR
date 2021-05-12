@@ -1,0 +1,4 @@
+﻿Method,Total Child Noise Points,Average Child Noise Points,Standard Deviation of Child Noise Points,Upper Child Noise Bound,Total Caregiver Noise Points,Average Caregiver Noise Points,Standard Deviation of Caregiver Noise Points,Upper Caregiver Noise Bound
+Average 3D Gaze Vector,36977,1540.71,1584.82,3125.53,24622,1025.92,1061.46,2087.38
+2D Gaze Vector,38581,1607.54,1965.47,3573.01,23901,995.88,1206.9,2202.78
+Pose Rotation,64603,2691.79,2535.34,5227.13,57066,2377.75,2077.19,4454.94
