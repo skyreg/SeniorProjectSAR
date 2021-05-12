@@ -1,4 +1,4 @@
-# CPSC 490 Spring Semester SeniorProject Analyzing 2018 SAR Study Visual Data
+# CPSC 490 Spring Semester Senior Project Analyzing 2018 SAR Study Visual Data
 
 Code: main.ipynb
 All code for this project can be found in the Jupyter Notebook file main.ipynb. Running the code requires connection to a hard drive owned by the Yale Social Robotics Laboratory.
