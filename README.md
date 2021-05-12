@@ -1,4 +1,4 @@
-# SeniorProjectSAR
+# CPSC 490 Spring Semester SeniorProject Analyzing 2018 SAR Study Visual Data
 
 Code: main.ipynb
 All code for this project can be found in the Jupyter Notebook file main.ipynb. Running the code requires connection to a hard drive owned by the Yale Social Robotics Laboratory.
@@ -23,6 +23,5 @@ This csv contains the noise results of running the clustering algorithm forcing 
 This csv contains the noise results of running the clustering algorithm forcing 3, 2, or 1 clusters on participant 1’s 3D average gaze vector data for different epsilon values. The columns of this csv are eps_value, child_mean_noise, child_std_noise, child_mean_std, parent_mean_noise, parent_std_noise, and parent_mean_std. Eps_value refers to what epsilon value was used. The child_mean_noise and parent_mean_noise columns refer to the average noise points found among participant 1 training sessions. The child_std_noise and parent_std_noise columns refer to the standard deviation noise points found among participant 1 training sessions. The child_mean_std and parent_mean_std columns refer to the sum of the respective mean and standard deviation columns.
 
 
-All CSV’s found in the folder output/final_clustering_2:
-
+3. All CSV’s found in the folder output/final_clustering_2:
 The files in this folder refer to the result of clustering a single participant’s 3D average gaze vectors with an epsilon value of 0.95. Each csv is labeled as the participant’s string + “.csv”. The column labels for all of these files are session, num_clusters_child,  eps_max_child, child_noise, child_info, num_clusters_parent, eps_max_parent, parent_noise, parent_info. The session column refers to what number session the clustering results is from for the particular participant. The columns num_clusters_child and num_clusters_parent refer to the number of clusters found for the child and caregiver data respectively. The columns eps_max_child and eps_max_parent refer to the epsilon value used when clustering the child and caregiver data respectively. These values should always be 0.95. The columns child_noise and parent_noise refer to the number of noise points found when clustering the child and caregiver data respectively. The columns child_info and parent_info contain arrays with information on each cluster found in the child and caregiver data respectively. The dictionaries for each cluster contain the mean and standard deviation value for the X, Y, and Z 3D gaze vector components for points in the cluster.
